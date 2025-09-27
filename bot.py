@@ -28,7 +28,7 @@ def enviar_lembrete():
 
 # --- AGENDAMENTO DOS HORÁRIOS ---
 # Horários que se repetem todo dia
-horarios_diarios = ["18:10", "21:00"]
+horarios_diarios = ["19:55", "21:00"]
 
 # Horários específicos por dia da semana
 horarios_semana = {
@@ -52,3 +52,4 @@ print("🤖 Bot iniciado! Aguardando horários...")
 while True:
     schedule.run_pending()
     time.sleep(1)
+
